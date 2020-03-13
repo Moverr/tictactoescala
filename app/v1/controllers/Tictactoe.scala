@@ -1,8 +1,9 @@
 package v1.controllers
 
 trait Tictactoe {
-  def initGame() : Unit;
-  def findHorizontal() : Unit;
+  //todo Array size of 3,3
+  def intiboard() : Array[String];
+  def populateBoard() : Unit;
   def findVertical(): Unit;
   def findDiagonal():Unit;
   def returnResult():Unit;
