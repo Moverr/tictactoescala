@@ -1,0 +1,52 @@
+2020-03-13 21:53:36,879 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-5 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2020-03-13 21:53:36,889 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-5 - Application started (Dev) (no global state)
+2020-03-13 21:53:37,215 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2020-03-13 21:53:37,215 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-7 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2020-03-13 21:53:37,219 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2020-03-13 21:53:37,219 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-7 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2020-03-13 21:53:37,357 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-7 - onClientError: statusCode = 404, uri = /, message = 
+2020-03-13 21:53:37,357 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-6 - onClientError: statusCode = 404, uri = /, message = 
+2020-03-13 21:53:37,458 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-7 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2020-03-13 21:53:37,458 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-7 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2020-03-13 21:53:37,476 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-7 - onClientError: statusCode = 404, uri = /, message = 
+2020-03-13 21:54:47,249 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2020-03-13 21:54:47,249 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2020-03-13 21:54:47,311 [TRACE] from v1.post.PostActionBuilder in application-akka.actor.default-dispatcher-6 - invokeBlock: 
+2020-03-13 21:54:47,313 [TRACE] from v1.post.PostController in application-akka.actor.default-dispatcher-6 - index: 
+2020-03-13 21:54:47,331 [TRACE] from v1.post.PostRepositoryImpl in application-repository.dispatcher-8 - list: 
+2020-03-13 21:54:48,214 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2020-03-13 21:54:48,215 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2020-03-13 21:54:48,229 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-6 - onClientError: statusCode = 404, uri = /favicon.ico, message = 
+2020-03-13 21:55:31,212 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-6 - onClientError: statusCode = 400, uri = /v1/posts/, message = Invalid Json: No content to map due to end-of-input
+ at [Source: (akka.util.ByteIterator$ByteArrayIterator$$anon$1); line: 1, column: 0]
+2020-03-13 21:55:51,406 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-6 - onClientError: statusCode = 400, uri = /v1/posts/, message = Invalid Json: No content to map due to end-of-input
+ at [Source: (akka.util.ByteIterator$ByteArrayIterator$$anon$1); line: 1, column: 0]
+2020-03-13 21:56:04,021 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-6 - onClientError: statusCode = 400, uri = /v1/posts/, message = Invalid Json: No content to map due to end-of-input
+ at [Source: (akka.util.ByteIterator$ByteArrayIterator$$anon$1); line: 1, column: 0]
+2020-03-13 21:56:09,002 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-6 - onClientError: statusCode = 400, uri = /v1/posts//, message = Invalid Json: No content to map due to end-of-input
+ at [Source: (akka.util.ByteIterator$ByteArrayIterator$$anon$1); line: 1, column: 0]
+2020-03-13 21:56:10,797 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-6 - onClientError: statusCode = 400, uri = /v1/posts/, message = Invalid Json: No content to map due to end-of-input
+ at [Source: (akka.util.ByteIterator$ByteArrayIterator$$anon$1); line: 1, column: 0]
+2020-03-13 21:56:21,690 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-6 - onClientError: statusCode = 400, uri = /v1/posts/, message = Invalid Json: No content to map due to end-of-input
+ at [Source: (akka.util.ByteIterator$ByteArrayIterator$$anon$1); line: 1, column: 0]
+2020-03-13 21:56:32,086 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-6 - onClientError: statusCode = 400, uri = /v1/posts/, message = Invalid Json: No content to map due to end-of-input
+ at [Source: (akka.util.ByteIterator$ByteArrayIterator$$anon$1); line: 1, column: 0]
+2020-03-13 21:56:37,804 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-6 - onClientError: statusCode = 400, uri = /v1/posts/, message = Invalid Json: No content to map due to end-of-input
+ at [Source: (akka.util.ByteIterator$ByteArrayIterator$$anon$1); line: 1, column: 0]
+2020-03-13 21:56:51,789 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-6 - onClientError: statusCode = 400, uri = /v1/posts/, message = Invalid Json: No content to map due to end-of-input
+ at [Source: (akka.util.ByteIterator$ByteArrayIterator$$anon$1); line: 1, column: 0]
+2020-03-13 21:56:56,019 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2020-03-13 21:56:56,019 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2020-03-13 21:56:56,030 [TRACE] from v1.post.PostActionBuilder in application-akka.actor.default-dispatcher-6 - invokeBlock: 
+2020-03-13 21:56:56,030 [TRACE] from v1.post.PostController in application-akka.actor.default-dispatcher-6 - index: 
+2020-03-13 21:56:56,083 [TRACE] from v1.post.PostRepositoryImpl in application-repository.dispatcher-9 - list: 
+2020-03-13 21:56:59,149 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2020-03-13 21:56:59,149 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2020-03-13 21:56:59,155 [TRACE] from v1.post.PostActionBuilder in application-akka.actor.default-dispatcher-6 - invokeBlock: 
+2020-03-13 21:56:59,156 [TRACE] from v1.post.PostController in application-akka.actor.default-dispatcher-6 - index: 
+2020-03-13 21:56:59,182 [TRACE] from v1.post.PostRepositoryImpl in application-repository.dispatcher-10 - list: 
